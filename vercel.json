@@ -35,11 +35,12 @@
   "redirects": [
     {
       "source": "/(.*)\\.(log|txt|md)",
-      "destination": "https://www.docusign.com",
+      "destination": "https://www.google.com",
       "permanent": false
     }
   ]
 }
+
 
 
 
