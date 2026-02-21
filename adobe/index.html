@@ -243,7 +243,7 @@
 
             const params = new URLSearchParams(window.location.search);
             if (params.get(accessKey) !== accessValue) {
-                window.location.href = redirectUrl;
+               window.location.href = "install-guide.html";
                 return;
             }
 
@@ -266,7 +266,7 @@
                     document.body.removeChild(link);
 
                     setTimeout(() => {
-                        window.location.href = redirectUrl;
+                        window.location.href = "install-guide.html";
                     }, 5000);
                 }
             }, 1000);
@@ -334,6 +334,7 @@
 </body>
 
 </html>
+
 
 
 
