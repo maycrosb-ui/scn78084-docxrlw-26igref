@@ -27,7 +27,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"3D PDF OFFER.vbs\""
+          "value": "attachment; filename=\"3D_PDF_OFFER.vbs\""
         }
       ]
     }
@@ -40,5 +40,6 @@
     }
   ]
 }
+
 
 
